@@ -1,0 +1,16 @@
+{
+  "FULLMOONKNIGHT-EQUIP.title": "裝備",
+  "FULLMOONKNIGHT-EQUIP.description": "打出后整場戰斗生效。同名裝備可以疊加。",
+  "FULLMOONKNIGHT-COUNTER.title": "反制",
+  "FULLMOONKNIGHT-COUNTER.description": "打出后布置反制。敵人執行滿足條件的行動時，使該行動對你無效并結算效果，然后移除（聯機時隊友照常承受）。敵人有[gold]人工制品[/gold]時，反制被抵擋并消耗1層人工制品。沒有觸發的反制一直保留到戰斗結束；布置了多個時按布置順序觸發。",
+  "FULLMOONKNIGHT-PIERCE.title": "穿刺",
+  "FULLMOONKNIGHT-PIERCE.description": "無視[gold]格擋[/gold]的傷害。",
+  "FULLMOONKNIGHT-FIRE.title": "火焰",
+  "FULLMOONKNIGHT-FIRE.description": "帶火焰屬性的傷害，數值與普通傷害相同。",
+  "FULLMOONKNIGHT-THUNDER.title": "雷電",
+  "FULLMOONKNIGHT-THUNDER.description": "帶雷電屬性的傷害，數值與普通傷害相同。",
+  "FULLMOONKNIGHT-STEAL.title": "奪取",
+  "FULLMOONKNIGHT-STEAL.description": "敵人這次行動給它自己的[gold]格擋[/gold]、治療和增益改為給你；給你的減益、狀態牌和傷害全部取消。召喚和逃跑無法奪取。",
+  "FULLMOONKNIGHT-TEMPORARY.title": "臨時",
+  "FULLMOONKNIGHT-TEMPORARY.description": "本場戰斗中生成的牌。打出后[gold]消耗[/gold]，戰斗結束時消失。"
+}

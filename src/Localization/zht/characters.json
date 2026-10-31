@@ -1,0 +1,16 @@
+{
+  "FULLMOONKNIGHT-KNIGHT.title": "女騎士",
+  "FULLMOONKNIGHT-KNIGHT.titleObject": "女騎士",
+  "FULLMOONKNIGHT-KNIGHT.description": "同外婆相依為命的小紅帽，靠頭腦和拳頭長大。\n守衛長委任她為巡邏騎士，在月圓之夜踏上旅途。",
+  "FULLMOONKNIGHT-KNIGHT.pronounObject": "她",
+  "FULLMOONKNIGHT-KNIGHT.pronounSubject": "她",
+  "FULLMOONKNIGHT-KNIGHT.pronounPossessive": "她的",
+  "FULLMOONKNIGHT-KNIGHT.possessiveAdjective": "她的",
+  "FULLMOONKNIGHT-KNIGHT.aromaPrinciple": "[sine][blue]月亮升起之前，把麻煩全部擺平。[/blue][/sine]",
+  "FULLMOONKNIGHT-KNIGHT.banter.alive.endTurnPing": "快點！",
+  "FULLMOONKNIGHT-KNIGHT.banter.dead.endTurnPing": "……",
+  "FULLMOONKNIGHT-KNIGHT.eventDeathPrevention": "外婆還在家里等我。",
+  "FULLMOONKNIGHT-KNIGHT.goldMonologue": "[sine]夠給外婆買一幢大房子了……[/sine]",
+  "FULLMOONKNIGHT-KNIGHT.cardsModifierTitle": "女騎士卡牌",
+  "FULLMOONKNIGHT-KNIGHT.cardsModifierDescription": "女騎士的卡牌現在會出現在獎勵和商店中。"
+}

@@ -1,0 +1,16 @@
+{
+  "FULLMOONKNIGHT-KNIGHT.title": "女騎士",
+  "FULLMOONKNIGHT-KNIGHT.titleObject": "女騎士",
+  "FULLMOONKNIGHT-KNIGHT.description": "祖母と二人で暮らし、知恵と拳を頼りに育った赤ずきん。\n巡回騎士に任命された彼女は、満月の夜に旅立つ。",
+  "FULLMOONKNIGHT-KNIGHT.pronounObject": "彼女",
+  "FULLMOONKNIGHT-KNIGHT.pronounSubject": "彼女",
+  "FULLMOONKNIGHT-KNIGHT.pronounPossessive": "彼女の",
+  "FULLMOONKNIGHT-KNIGHT.possessiveAdjective": "彼女の",
+  "FULLMOONKNIGHT-KNIGHT.aromaPrinciple": "[sine][blue]月が昇る前に、厄介事はすべて片づける。[/blue][/sine]",
+  "FULLMOONKNIGHT-KNIGHT.banter.alive.endTurnPing": "早く！",
+  "FULLMOONKNIGHT-KNIGHT.banter.dead.endTurnPing": "……",
+  "FULLMOONKNIGHT-KNIGHT.eventDeathPrevention": "おばあちゃんが待っている。",
+  "FULLMOONKNIGHT-KNIGHT.goldMonologue": "[sine]おばあちゃんに大きな家を買ってあげられる……[/sine]",
+  "FULLMOONKNIGHT-KNIGHT.cardsModifierTitle": "女騎士のカード",
+  "FULLMOONKNIGHT-KNIGHT.cardsModifierDescription": "女騎士のカードが報酬やショップに出現する。"
+}

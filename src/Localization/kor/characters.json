@@ -1,0 +1,16 @@
+{
+  "FULLMOONKNIGHT-KNIGHT.title": "여기사",
+  "FULLMOONKNIGHT-KNIGHT.titleObject": "여기사",
+  "FULLMOONKNIGHT-KNIGHT.description": "할머니와 단둘이 살며 지혜와 주먹으로 자란 빨간 모자.\n순찰 기사로 임명된 그녀는 보름달이 뜬 밤에 길을 떠난다.",
+  "FULLMOONKNIGHT-KNIGHT.pronounObject": "그녀",
+  "FULLMOONKNIGHT-KNIGHT.pronounSubject": "그녀",
+  "FULLMOONKNIGHT-KNIGHT.pronounPossessive": "그녀의",
+  "FULLMOONKNIGHT-KNIGHT.possessiveAdjective": "그녀의",
+  "FULLMOONKNIGHT-KNIGHT.aromaPrinciple": "[sine][blue]달이 뜨기 전에 골칫거리를 전부 해결하자.[/blue][/sine]",
+  "FULLMOONKNIGHT-KNIGHT.banter.alive.endTurnPing": "서둘러!",
+  "FULLMOONKNIGHT-KNIGHT.banter.dead.endTurnPing": "……",
+  "FULLMOONKNIGHT-KNIGHT.eventDeathPrevention": "할머니가 아직 기다리고 있어.",
+  "FULLMOONKNIGHT-KNIGHT.goldMonologue": "[sine]할머니께 큰 집을 사 드릴 수 있겠어……[/sine]",
+  "FULLMOONKNIGHT-KNIGHT.cardsModifierTitle": "여기사 카드",
+  "FULLMOONKNIGHT-KNIGHT.cardsModifierDescription": "이제 보상과 상점에서 여기사 카드가 등장합니다."
+}

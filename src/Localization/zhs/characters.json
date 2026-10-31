@@ -1,0 +1,16 @@
+{
+  "FULLMOONKNIGHT-KNIGHT.title": "女骑士",
+  "FULLMOONKNIGHT-KNIGHT.titleObject": "女骑士",
+  "FULLMOONKNIGHT-KNIGHT.description": "同外婆相依为命的小红帽，靠头脑和拳头长大。\n守卫长委任她为巡逻骑士，在月圆之夜踏上旅途。",
+  "FULLMOONKNIGHT-KNIGHT.pronounObject": "她",
+  "FULLMOONKNIGHT-KNIGHT.pronounSubject": "她",
+  "FULLMOONKNIGHT-KNIGHT.pronounPossessive": "她的",
+  "FULLMOONKNIGHT-KNIGHT.possessiveAdjective": "她的",
+  "FULLMOONKNIGHT-KNIGHT.aromaPrinciple": "[sine][blue]月亮升起之前，把麻烦全部摆平。[/blue][/sine]",
+  "FULLMOONKNIGHT-KNIGHT.banter.alive.endTurnPing": "快点！",
+  "FULLMOONKNIGHT-KNIGHT.banter.dead.endTurnPing": "……",
+  "FULLMOONKNIGHT-KNIGHT.eventDeathPrevention": "外婆还在家里等我。",
+  "FULLMOONKNIGHT-KNIGHT.goldMonologue": "[sine]够给外婆买一幢大房子了……[/sine]",
+  "FULLMOONKNIGHT-KNIGHT.cardsModifierTitle": "女骑士卡牌",
+  "FULLMOONKNIGHT-KNIGHT.cardsModifierDescription": "女骑士的卡牌现在会出现在奖励和商店中。"
+}

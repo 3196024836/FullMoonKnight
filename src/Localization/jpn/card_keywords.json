@@ -1,0 +1,16 @@
+{
+  "FULLMOONKNIGHT-EQUIP.title": "装備",
+  "FULLMOONKNIGHT-EQUIP.description": "プレイすると戦闘終了まで効果が続く。同名の装備は重ねられる。",
+  "FULLMOONKNIGHT-COUNTER.title": "カウンター",
+  "FULLMOONKNIGHT-COUNTER.description": "カウンターを設置する。敵が条件を満たす行動をすると、自分への効果を無効化し、カウンターの効果を発動して取り除く。仲間は通常どおり影響を受ける。敵の[gold]アーティファクト[/gold]はカウンターを防ぎ、1減少する。未発動のカウンターは戦闘終了まで残り、設置した順に発動する。",
+  "FULLMOONKNIGHT-PIERCE.title": "貫通",
+  "FULLMOONKNIGHT-PIERCE.description": "[gold]ブロック[/gold]を無視するダメージ。",
+  "FULLMOONKNIGHT-FIRE.title": "炎",
+  "FULLMOONKNIGHT-FIRE.description": "炎属性のダメージ。通常のダメージと同じ量を与える。",
+  "FULLMOONKNIGHT-THUNDER.title": "雷",
+  "FULLMOONKNIGHT-THUNDER.description": "雷属性のダメージ。通常のダメージと同じ量を与える。",
+  "FULLMOONKNIGHT-STEAL.title": "奪取",
+  "FULLMOONKNIGHT-STEAL.description": "敵が自身に与える[gold]ブロック[/gold]、回復、強化を代わりに自分が得る。自分への弱体化、状態異常カード、ダメージは無効になる。召喚と逃走は奪えない。",
+  "FULLMOONKNIGHT-TEMPORARY.title": "一時",
+  "FULLMOONKNIGHT-TEMPORARY.description": "この戦闘中に生成されたカード。プレイ時に[gold]廃棄[/gold]され、戦闘終了時に消滅する。"
+}

@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>FullMoonKnight</AssemblyName>
+    <RootNamespace>FullMoonKnight</RootNamespace>
+    <NoWarn>$(NoWarn);MSB3270</NoWarn>
+    <GameDir>C:/Program Files (x86)/Steam/steamapps/common/Slay the Spire 2</GameDir>
+    <GameData>$(GameDir)/data_sts2_windows_x86_64</GameData>
+    <BaseLibDll>C:/Program Files (x86)/Steam/steamapps/workshop/content/2868840/3737335127/BaseLib/BaseLib.dll</BaseLibDll>
+    <!-- Godot 源生成器据此生成 ScriptPath；脚本路径形如 res://src/... -->
+    <GodotProjectDir>$(MSBuildProjectDirectory)\..\</GodotProjectDir>
+    <GodotDisabledSourceGenerators>GodotPluginsInitializer</GodotDisabledSourceGenerators>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="sts2">
+      <HintPath>$(GameData)/sts2.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="GodotSharp">
+      <HintPath>$(GameData)/GodotSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(GameData)/0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="SmartFormat">
+      <HintPath>$(GameData)/SmartFormat.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="BaseLib">
+      <HintPath>$(BaseLibDll)</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <PackageReference Include="Krafs.Publicizer" Version="2.3.0" PrivateAssets="All" />
+    <PackageReference Include="Godot.SourceGenerators" Version="4.5.1" PrivateAssets="All" />
+    <Publicize Include="sts2" IncludeVirtualMembers="false" IncludeCompilerGeneratedMembers="false" />
+  </ItemGroup>
+
+</Project>

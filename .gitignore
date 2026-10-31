@@ -1,0 +1,9 @@
+**/bin/
+**/obj/
+/artifacts/
+/assets/source/
+/assets/mod/
+/assets/original/
+/.tools/
+/.work/
+__pycache__/

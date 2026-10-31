@@ -1,0 +1,17 @@
+{
+  "id": "FullMoonKnight",
+  "name": "月圆之夜：女骑士",
+  "author": "hua",
+  "description": "《月圆之夜》女骑士移植：装备、反制、穿刺、恶作剧，原作卡牌、祝福与事件。",
+  "version": "1.2.3",
+  "min_game_version": "0.107.1",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [
+    {
+      "id": "BaseLib",
+      "min_version": "3.4.7"
+    }
+  ],
+  "affects_gameplay": true
+}

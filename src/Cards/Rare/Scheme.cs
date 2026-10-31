@@ -1,0 +1,45 @@
+using BaseLib.Utils;
+using MegaCrit.Sts2.Core.Commands;
+using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
+using MegaCrit.Sts2.Core.Localization.DynamicVars;
+
+using FullMoonKnight.Character;
+using FullMoonKnight.Powers;
+
+namespace FullMoonKnight.Cards;
+
+/// <summary>
+/// 筹谋：抽牌，下一张造成伤害的牌伤害翻倍。
+/// </summary>
+[Pool(typeof(KnightCardPool))]
+public sealed class Scheme : KnightCard
+{
+    /// <summary>
+    /// 创建筹谋。
+    /// </summary>
+    public Scheme() : base(1, CardType.Skill, CardRarity.Rare, TargetType.Self)
+    {
+    }
+
+    /// <inheritdoc />
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new CardsVar(1), new PowerVar<PoisedPower>(2m)];
+
+    /// <inheritdoc />
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<PoisedPower>()];
+
+    /// <inheritdoc />
+    protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
+    {
+        await CardPileCmd.Draw(choiceContext, DynamicVars.Cards.BaseValue, Owner);
+        await PowerCmd.Apply<PoisedPower>(choiceContext, Owner.Creature, DynamicVars["PoisedPower"].BaseValue,
+            Owner.Creature, this);
+    }
+
+    /// <inheritdoc />
+    protected override void OnUpgrade()
+    {
+        DynamicVars.Cards.UpgradeValueBy(1m);
+    }
+}

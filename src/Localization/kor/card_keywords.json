@@ -1,0 +1,16 @@
+{
+  "FULLMOONKNIGHT-EQUIP.title": "장비",
+  "FULLMOONKNIGHT-EQUIP.description": "사용하면 전투가 끝날 때까지 효과가 지속됩니다. 같은 이름의 장비는 중첩됩니다.",
+  "FULLMOONKNIGHT-COUNTER.title": "반격",
+  "FULLMOONKNIGHT-COUNTER.description": "반격을 설치합니다. 적이 조건에 맞는 행동을 하면 자신에게 미치는 효과를 무효화하고 반격 효과를 발동한 뒤 제거됩니다. 동료는 정상적으로 영향을 받습니다. 적의 [gold]인공물[/gold]은 반격을 막고 1 감소합니다. 발동하지 않은 반격은 전투가 끝날 때까지 남으며, 설치한 순서대로 발동합니다.",
+  "FULLMOONKNIGHT-PIERCE.title": "관통",
+  "FULLMOONKNIGHT-PIERCE.description": "[gold]방어도[/gold]를 무시하는 피해입니다.",
+  "FULLMOONKNIGHT-FIRE.title": "화염",
+  "FULLMOONKNIGHT-FIRE.description": "화염 속성 피해입니다. 일반 피해와 같은 양의 피해를 줍니다.",
+  "FULLMOONKNIGHT-THUNDER.title": "번개",
+  "FULLMOONKNIGHT-THUNDER.description": "번개 속성 피해입니다. 일반 피해와 같은 양의 피해를 줍니다.",
+  "FULLMOONKNIGHT-STEAL.title": "강탈",
+  "FULLMOONKNIGHT-STEAL.description": "적이 자신에게 줄 [gold]방어도[/gold], 치유, 강화 효과를 대신 얻습니다. 자신에게 가해질 약화 효과, 상태이상 카드와 피해는 무효화됩니다. 소환과 도주는 강탈할 수 없습니다.",
+  "FULLMOONKNIGHT-TEMPORARY.title": "임시",
+  "FULLMOONKNIGHT-TEMPORARY.description": "이번 전투에서 생성된 카드입니다. 사용하면 [gold]소멸[/gold]하며 전투가 끝나면 사라집니다."
+}

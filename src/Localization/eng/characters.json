@@ -1,0 +1,16 @@
+{
+  "FULLMOONKNIGHT-KNIGHT.title": "The Knight",
+  "FULLMOONKNIGHT-KNIGHT.titleObject": "The Knight",
+  "FULLMOONKNIGHT-KNIGHT.description": "Raised by her grandmother, Little Red grew up on wits and fists.\nNow a patrol knight, she sets out on the night of the full moon.",
+  "FULLMOONKNIGHT-KNIGHT.pronounObject": "her",
+  "FULLMOONKNIGHT-KNIGHT.pronounSubject": "she",
+  "FULLMOONKNIGHT-KNIGHT.pronounPossessive": "hers",
+  "FULLMOONKNIGHT-KNIGHT.possessiveAdjective": "her",
+  "FULLMOONKNIGHT-KNIGHT.aromaPrinciple": "[sine][blue]Settle every trouble before the moon rises.[/blue][/sine]",
+  "FULLMOONKNIGHT-KNIGHT.banter.alive.endTurnPing": "Hurry up!",
+  "FULLMOONKNIGHT-KNIGHT.banter.dead.endTurnPing": "...",
+  "FULLMOONKNIGHT-KNIGHT.eventDeathPrevention": "Grandma is still waiting for me.",
+  "FULLMOONKNIGHT-KNIGHT.goldMonologue": "[sine]Enough to buy Grandma a big house...[/sine]",
+  "FULLMOONKNIGHT-KNIGHT.cardsModifierTitle": "Knight Cards",
+  "FULLMOONKNIGHT-KNIGHT.cardsModifierDescription": "Knight cards will now appear in rewards and shops."
+}

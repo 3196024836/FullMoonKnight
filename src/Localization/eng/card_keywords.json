@@ -1,0 +1,16 @@
+{
+  "FULLMOONKNIGHT-EQUIP.title": "Equipment",
+  "FULLMOONKNIGHT-EQUIP.description": "Lasts for the rest of combat once played. Copies of the same Equipment stack.",
+  "FULLMOONKNIGHT-COUNTER.title": "Counter",
+  "FULLMOONKNIGHT-COUNTER.description": "Sets a Counter. When an enemy takes a matching action, the action is negated for you (teammates are still affected), the Counter resolves and is removed. An enemy's [gold]Artifact[/gold] blocks the Counter and loses 1 stack. Untriggered Counters last until the end of combat and trigger in the order they were set.",
+  "FULLMOONKNIGHT-PIERCE.title": "Piercing",
+  "FULLMOONKNIGHT-PIERCE.description": "Damage that ignores [gold]Block[/gold].",
+  "FULLMOONKNIGHT-FIRE.title": "Fire",
+  "FULLMOONKNIGHT-FIRE.description": "Fire-element damage. Deals the same amount as normal damage.",
+  "FULLMOONKNIGHT-THUNDER.title": "Thunder",
+  "FULLMOONKNIGHT-THUNDER.description": "Thunder-element damage. Deals the same amount as normal damage.",
+  "FULLMOONKNIGHT-STEAL.title": "Steal",
+  "FULLMOONKNIGHT-STEAL.description": "The [gold]Block[/gold], healing and buffs the enemy would give itself go to you instead; debuffs, status cards and damage aimed at you are cancelled. Summoning and escaping cannot be stolen.",
+  "FULLMOONKNIGHT-TEMPORARY.title": "Temporary",
+  "FULLMOONKNIGHT-TEMPORARY.description": "A card created during this combat. [gold]Exhausts[/gold] when played and disappears at the end of combat."
+}

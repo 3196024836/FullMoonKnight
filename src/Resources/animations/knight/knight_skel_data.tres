@@ -1,0 +1,34 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=7 format=3]
+
+[ext_resource type="SpineAtlasResource" path="res://FullMoonKnight/animations/knight/knight.atlas" id="1_atlas"]
+[ext_resource type="SpineSkeletonFileResource" path="res://FullMoonKnight/animations/knight/knight.skel" id="2_skel"]
+
+[sub_resource type="SpineAnimationMix" id="Mix_idle_attack"]
+from = "idle_loop"
+to = "attack"
+mix = 0.08
+
+[sub_resource type="SpineAnimationMix" id="Mix_idle_hurt"]
+from = "idle_loop"
+to = "hurt"
+mix = 0.03
+
+[sub_resource type="SpineAnimationMix" id="Mix_hurt_idle"]
+from = "hurt"
+to = "idle_loop"
+mix = 0.1
+
+[sub_resource type="SpineAnimationMix" id="Mix_hurt_die"]
+from = "hurt"
+to = "die"
+
+[sub_resource type="SpineAnimationMix" id="Mix_attack_idle"]
+from = "attack"
+to = "idle_loop"
+mix = 0.15
+
+[resource]
+atlas_res = ExtResource("1_atlas")
+skeleton_file_res = ExtResource("2_skel")
+default_mix = 0.1
+animation_mixes = [SubResource("Mix_idle_attack"), SubResource("Mix_idle_hurt"), SubResource("Mix_hurt_idle"), SubResource("Mix_hurt_die"), SubResource("Mix_attack_idle")]

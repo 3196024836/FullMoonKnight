@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://src/Core/Nodes/Screens/Shops/NMerchantCharacter.cs" id="1_merchant"]
+[ext_resource type="SpineSkeletonDataResource" path="res://FullMoonKnight/animations/knight/knight_skel_data.tres" id="2_data"]
+
+[node name="KnightMerchant" type="Node2D"]
+script = ExtResource("1_merchant")
+
+[node name="SpineSprite" type="SpineSprite" parent="."]
+skeleton_data_res = ExtResource("2_data")
+preview_skin = "default"
+preview_animation = "relaxed_loop"
+scale = Vector2(0.6, 0.6)
